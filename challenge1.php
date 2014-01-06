@@ -6,7 +6,6 @@
 require('vendor/autoload.php');
 
 use OpenCloud\Rackspace;
-use OpenCloud\Compute\Constants\Network;
 
 // read the ini file and store it in $ini as an array
 // ini file is at .rackspace_cloud_credentials and contains:
