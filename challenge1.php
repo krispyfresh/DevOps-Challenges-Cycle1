@@ -40,7 +40,7 @@ $newflavor = $RScompute -> Flavor(2);
 // create the cloud server
 $newserver = $RScompute -> server();
 $newserver -> create(array(
-    'name'      => 'KrispyServ2',
+    'name'      => 'KrispyServ',
     'image'     => $newimage,
     'flavor'    => $newflavor));
 
