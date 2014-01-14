@@ -50,7 +50,7 @@ $keypair -> create(array(
     'name'      => 'api_challenge_key',
     'publicKey' => file_get_contents($sshkey)));
 
-print "api_challenge_key=".file_get_contents($sshkey)."\n";
+//print "api_challenge_key=".file_get_contents($sshkey)."\n";
 // create a flavor object for the 512 MB flavor
 $flavor = $RScompute -> Flavor(2);    
     
